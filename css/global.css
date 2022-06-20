@@ -1,9 +1,17 @@
 body{
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea,
+label,
+span,
 p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif!important;
 }
 
 a{
@@ -19,3 +27,6 @@ h6{
     font-family: 'Quicksand', sans-serif;
 }
 
+:focus-visible {
+    outline: none!important;
+}
