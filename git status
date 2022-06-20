@@ -1,0 +1,17 @@
+[33mcommit ccc7148a51a8276d6156851817eea77d7b6fc21f[m[33m ([m[1;36mHEAD -> [m[1;32mheader[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Patryk Ruta <p4trykruta@gmail.com>
+Date:   Mon Jun 20 18:54:26 2022 +0200
+
+    Adding img folder and JS file
+
+[33mcommit b4e206c180ef2ea0dece2e3abacf47683a1cf1e6[m
+Author: Patryk Ruta <p4trykruta@gmail.com>
+Date:   Mon Jun 20 17:44:47 2022 +0200
+
+    Adding Css files
+
+[33mcommit 98506bf4a48a00ea9b68b91c0127a404c676d82a[m
+Author: Patryk Ruta <p4trykruta@gmail.com>
+Date:   Mon Jun 20 17:36:37 2022 +0200
+
+    Starting project adding file index.html
