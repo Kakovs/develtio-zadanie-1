@@ -138,6 +138,11 @@
     position: relative;
 }
 
+#homeInformationSection .container{
+    position: relative;
+    z-index: 10;
+}
+
 .title{
     font-size: 63px;
     font-weight: 700;
@@ -159,6 +164,7 @@
 }
 
 .orangeButton{
+    font-family: 'Quicksand', sans-serif;
     font-size: 17px;
     color: #fff;
     padding: 18px;
@@ -187,4 +193,5 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 1;
 }
