@@ -39,3 +39,24 @@ footer{
     font-size: 25px;
     font-weight: 700;
 }
+
+@media(max-width: 991px){
+    .footerGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footerGrid .footertitle{
+        text-align: center;
+    }
+
+    .footerGrid .footerLinks a{
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px){
+    .footerGrid{
+        grid-template-columns: 1fr;
+    }
+}

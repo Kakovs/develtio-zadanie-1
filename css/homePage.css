@@ -1,6 +1,10 @@
 /* baner section */
 
 #homeBanerSection{
+    position: relative;
+}
+
+.homeBanerSectionBackground{
     height: calc(100vh - 114px);
     max-height: 732px;
     background-size: cover;
@@ -23,10 +27,6 @@
     margin-bottom: 5px;
 }
 
-#homeBanerSection .row{
-    position: relative;
-}
-
 .subTitleHomeBaner{
     font-size: 30px;
     font-weight: 700;
@@ -38,8 +38,8 @@
 .contactFormHomeBaner{
     position: absolute;
     background-color: #fff;
-    bottom: 0;
-    right: 0;
+    bottom: 64px;
+    right: calc(50% - 660px);
     padding: 40px!important;
     border-radius: 10px;
     width: 100%!important;
@@ -194,4 +194,83 @@
     right: 0;
     bottom: 0;
     z-index: 1;
+}
+
+
+
+/* mobile */
+
+
+
+@media (max-width: 1399px){
+    .contactFormHomeBaner{
+        right: calc(50% - 570px);
+    }
+}
+
+@media (max-width: 1199px){
+    .contactFormHomeBaner{
+        right: calc(50% - 480px);
+    }
+
+    #homeInformationSection{
+        padding-bottom: 0;
+    }
+
+    .sideBackground{
+        position: relative;
+        padding-top: 300px;
+    }
+
+    .sideBackground img{
+        position: absolute;
+        width: auto;
+        height: 380px;
+        right: 0px;
+        bottom: 0;
+        /* object-fit: cover; */
+    }
+}
+
+
+
+@media (max-width: 991px){
+    .contactFormHomeBaner{
+        position: relative;
+        right: unset;
+        bottom: unset;
+        margin: auto;
+        max-width: 80%!important;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .titleHomeBaner{
+        font-size: 42px;
+    }
+
+    .title{
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 575px){
+    .contactFormHomeBaner{
+        max-width: 100%!important;
+        padding: 40px 12px!important;
+    }
+}
+
+@media (max-width: 480px){
+
+    .titleHomeBaner,
+    .title{
+        font-size: 36px;
+    }
+
+    .subTitleHomeBaner,
+    .subTitle{
+        font-size: 24px;
+    }
 }
