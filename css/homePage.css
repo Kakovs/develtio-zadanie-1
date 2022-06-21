@@ -1,4 +1,6 @@
-.homeBanerSection{
+/* baner section */
+
+#homeBanerSection{
     height: calc(100vh - 114px);
     max-height: 732px;
     background-size: cover;
@@ -8,7 +10,7 @@
     justify-content: end;
 }
 
-.homeBanerSection .blueBackground{
+#homeBanerSection .blueBackground{
     background-color: rgba(28, 62, 149, 0.75);
     padding: 44px 0 64px;
 }
@@ -21,7 +23,7 @@
     margin-bottom: 5px;
 }
 
-.homeBanerSection .row{
+#homeBanerSection .row{
     position: relative;
 }
 
@@ -107,7 +109,82 @@
     padding: 10px;
     border: 0;
     background-color: #FE7A22;
+    transition: 0.3s;
     color: #fff;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+}
+
+.formHomeBaner .formButton input:hover{
+    background-color: #E95A1B;
+}
+
+.formTwoColLeft{
+    padding-right: 6px!important;
+}
+
+.formTwoColRight{
+    padding-left: 6px!important;
+}
+
+
+
+/* second section */
+
+
+
+#homeInformationSection{
+    padding: 72px 0 96px;
+    position: relative;
+}
+
+.title{
+    font-size: 63px;
+    font-weight: 700;
+    color: #1C3E95;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.subTitle{
+    font-size: 34px;
+    font-weight: 700;
+    color: #1C3E95;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+#homeInformationSection .globalText{
+    margin-bottom: 10px;
+}
+
+.orangeButton{
+    font-size: 17px;
+    color: #fff;
+    padding: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    background-color: #FE7A22;
+    border: none;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    text-align: center;
+}
+
+.orangeButton:hover{
+    background-color: #E95A1B;
+    color: #fff;
+}
+
+#homeInformationSection .orangeButton{
+    margin-top: 56px;
+}
+
+.sideBackground{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }

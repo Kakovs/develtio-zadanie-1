@@ -3,6 +3,10 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+a{
+    text-decoration: none!important;
+}
+
 button,
 input,
 optgroup,
@@ -12,10 +16,6 @@ label,
 span,
 p{
     font-family: 'Lato', sans-serif!important;
-}
-
-a{
-    text-decoration: none;
 }
 
 h1,
@@ -29,4 +29,11 @@ h6{
 
 :focus-visible {
     outline: none!important;
+}
+
+.globalText{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #161616;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
             <nav>
                 <div class="headerLogo">
                     <a href="#">
-                        <img src="img\Group 27.png" alt="">
+                        <img src="img/Group 27.png" alt="">
                     </a>
                 </div>
                 <div class="mainMenu">
@@ -33,7 +33,7 @@
         </div>
     </header>
 
-    <div class="homeBanerSection" style="background-image: url(img/shutterstock_1105116683.jpg)">
+    <section id="homeBanerSection" style="background-image: url(img/shutterstock_1105116683.jpg)">
         <div class="blueBackground">
             <div class="container">
                 <div class="row">
@@ -54,10 +54,10 @@
                                 <div class="col-12 formRow">
                                     <input type="tel" name="phone" placeholder="Nr telefonu">
                                 </div>
-                                <div class="col-7 formRow">
+                                <div class="col-7 formRow formTwoColLeft">
                                     <input type="text" name="town" placeholder="Miejscowość">
                                 </div>
-                                <div class="col-5 formRow">
+                                <div class="col-5 formRow formTwoColRight">
                                     <input type="text" name="zip-code" placeholder="Kod pocztowy">
                                 </div>
                                 <div class="col-12">
@@ -75,7 +75,22 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="homeInformationSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="title">Ubezpieczenia majątkowe</h2>
+                    <h4 class="subTitle">Co obejmują?</h4>
+                    <p class="globalText"><b>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</b></p>
+                    <p class="globalText">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    <a class="orangeButton" href="#">Zamów ubezpieczenie</a>
+                </div>
+            </div>
+        </div>
+        <img class="sideBackground" src="img/shutterstock_373266265.png" alt="">
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js\custom.js"></script>
