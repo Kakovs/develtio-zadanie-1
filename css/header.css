@@ -5,7 +5,6 @@ header{
 
 header nav{
     display: flex;
-    flex-direction: column;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -86,6 +85,11 @@ header a{
 }
 
 @media (max-width: 991px){
+    header{
+        position: relative;
+        z-index: 101;
+    }
+
     header nav{
         position: relative;
     }
@@ -143,8 +147,8 @@ header a{
         padding: 20px;
         background-color: #fff;
         top: 87px;
-        z-index: 100;
         width: 100%;
+        z-index: 101;
         height: auto;
         transform: translateX(-150%);
         display: flex;

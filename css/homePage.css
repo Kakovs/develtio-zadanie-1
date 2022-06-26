@@ -2,11 +2,11 @@
 
 #homeBanerSection{
     position: relative;
+    z-index: 100;
 }
 
 .homeBanerSectionBackground{
-    height: calc(100vh - 114px);
-    max-height: 732px;
+    height: 732px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -38,7 +38,7 @@
 .contactFormHomeBaner{
     position: absolute;
     background-color: #fff;
-    bottom: 64px;
+    top: 64px;
     right: calc(50% - 660px);
     padding: 40px!important;
     border-radius: 10px;
@@ -231,16 +231,23 @@
     }
 }
 
-
-
 @media (max-width: 991px){
+    .homeBanerSectionBackground{
+        height: calc(100vh - 100px);
+        max-height: 732px;
+    }
+
     .contactFormHomeBaner{
         position: relative;
         right: unset;
-        bottom: unset;
+        top: unset;
         margin: auto;
         max-width: 80%!important;
         margin-top: 20px;
+    }
+
+    #homeInformationSection{
+        padding-top: 20px;
     }
 }
 
